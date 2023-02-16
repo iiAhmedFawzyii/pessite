@@ -28,12 +28,18 @@
   scroll-behavior: smooth;
 }
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: var(--font-default);
   color: var(--color-default);
+}
+
+p{
+  font-family: 'Itim', cursive;
+  font-size: 1rem;
 }
 
 a {
@@ -46,9 +52,16 @@ a:hover {
   text-decoration: none;
 }
 
+h3{
+  font-family: 'Calistoga', cursive;
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+}
+
+
 h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
@@ -165,7 +178,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background: var(--color-secondary);
+  background: blue;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -179,8 +192,8 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
-  color: #fff;
+  background: rgba(33, 40, 245, 0.8);
+  color: rgb(255, 255, 255);
 }
 
 .scroll-top.active {
@@ -242,6 +255,8 @@ section {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+
+ 
 }
 
 /*--------------------------------------------------------------
@@ -274,6 +289,10 @@ section {
   .topbar .contact-info i span {
     font-size: 13px;
   }
+
+
+
+
 }
 
 .topbar .contact-info i a {
@@ -347,6 +366,17 @@ section {
     padding: 0;
   }
 
+
+
+  
+  #bg-img{
+    padding-left: 200px;
+  }
+  
+
+
+
+  
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -476,6 +506,10 @@ section {
     left: -90%;
   }
 
+
+  
+
+
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
@@ -487,6 +521,8 @@ section {
   .mobile-nav-hide {
     display: none;
   }
+
+  
 }
 
 /*--------------------------------------------------------------
@@ -503,6 +539,9 @@ section {
     transition: 0.3s;
     z-index: 9997;
   }
+
+
+  
 
   .navbar ul {
     position: absolute;
